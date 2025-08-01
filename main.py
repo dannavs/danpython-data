@@ -5,4 +5,4 @@ msft = yf.Ticker("MSFT")
 msft_data = msft.history(period="max")
 
 # Display the downloaded data
-msft_data.head()
+print(msft_data.head())
